@@ -1,0 +1,110 @@
+@import 'base/reset';
+@import 'base/fonts';
+@import 'components/header';
+@import 'components/cite';
+@import 'components/social-button';
+@import 'components/gallery';
+@import 'components/us';
+@import 'components/footer';
+@import 'functions/mixins';
+@import 'functions/operations';
+
+
+/*html GALERIA*/
+/*Me falta editarle los comandos al carousel porque no quedan legibles*/
+.bg-color-gallery {
+    background-color: rgb(12, 12, 12);
+}
+.carousel-centrado {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+.footer-gal {
+    font-size: 1.3rem;
+}
+
+
+/*html CONTACTO*/
+.body-contact {
+    color: #5D6063;
+    background-color: #121212;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.speaker-form-section {
+    text-align: center;
+    @include bg-colors;
+    border: 1px solid #d9d6dc;
+    border-radius: 4px;
+    margin: 40px 0;
+    padding: 50px;
+}
+.speaker-form-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.speaker-form-section p {
+    font-size: 30px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.form-row input[type="text"],input[type="email"] {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 16px 0;
+}
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 1px solid red;
+    color: red;
+    box-shadow: none;
+}
+.mensaje {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+.send {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @include bg-colors;
+    @include titulos;
+    border: 1px solid rgb(155, 17, 113);
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.send:hover {
+    background-color: whitesmoke;
+    @include titulos;
+    border: 1px solid #121212;
+}
+.more-info {
+    color: whitesmoke;
+    font-size: smaller;
+}
+.subp {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 5rem;
+}

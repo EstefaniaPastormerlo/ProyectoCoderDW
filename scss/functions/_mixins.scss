@@ -1,0 +1,11 @@
+@mixin titulos {
+    color: orchid;
+}
+
+@mixin bg-colors {
+    background-color: rgb(155, 17, 113);
+}
+
+@mixin italic {
+    font-style: italic;
+}

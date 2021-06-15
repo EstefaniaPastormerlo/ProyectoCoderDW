@@ -1,0 +1,23 @@
+@import '../functions/mixins';
+
+/* INICIO 1ra Section */
+section {
+	.degrade-cite {
+		background: linear-gradient(to bottom, rgb(12, 12, 12) 20px, #fff, rgb(15, 202, 171));
+		display: flex;
+	}
+	cite {
+		font-family: 'Libre Baskerville', serif;
+		font-size: 2.5rem;
+		color: #000;
+		text-shadow: 1px 1px #fff;
+		@include italic;
+	}
+	.autor {
+		text-align: center;
+		color: rgb(97, 97, 97);
+		font-weight: bold;
+		margin-top: 2rem;
+	}
+}
+/* FIN 1ra Section */

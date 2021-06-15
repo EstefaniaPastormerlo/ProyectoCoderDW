@@ -1,0 +1,48 @@
+@import '../functions/mixins';
+@import '../functions/operations';
+
+/* Inicio Seccion GALERIA */
+
+h1 {
+	font-size: $size * 2;
+	color: rgb(15, 202, 171);
+	text-align: center;
+	margin: 4rem 0;
+	align-content: center;
+}
+
+h2 {
+	font-size: $size + 1;
+	@include titulos;
+}
+h3 {
+	font-size: $size;
+	@include titulos;
+	margin: 1rem 0;
+}
+strong {
+	font-size: $size;
+}
+section {
+	.see-more {
+		font-size: $size;
+		font-weight: bold;
+		font-style: italic;
+		color: indigo;
+		text-decoration: underline;
+		text-align: center;
+		text-decoration-style: wavy;
+		text-decoration-color: rgb(243, 140, 212);
+		text-decoration-thickness: 25%;
+		display: block;
+		margin: 4rem 0 10rem 0;
+	}
+}
+.escala {
+	&:hover {
+		transform: scale(1.5);
+		border-radius: 10px;
+		transition: ease 0.5s;
+	}
+}
+/*fin seccion galeria*/

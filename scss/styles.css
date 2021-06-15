@@ -1,0 +1,366 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*:root {
+    font-size: 10px; 
+}*/
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* INICIO HEADER */
+header .color-fondo-nav {
+  background-color: #121212;
+}
+
+header .logo-nav {
+  height: 7rem;
+}
+
+header .nav-centrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #navbarNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* FIN HEADER */
+/* INICIO 1ra Section */
+section .degrade-cite {
+  background: linear-gradient(to bottom, #0c0c0c 20px, #fff, #0fcaab);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section cite {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.5rem;
+  color: #000;
+  text-shadow: 1px 1px #fff;
+  font-style: italic;
+}
+
+section .autor {
+  text-align: center;
+  color: #616161;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+/* FIN 1ra Section */
+/*BOTON REDES FLOAT*/
+.button-socials {
+  background-color: #870299;
+  border: none;
+  color: whitesmoke;
+  padding: 8px;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 30px 0 0 30px;
+  -webkit-box-shadow: -2px 4px 8px rgba(105, 6, 97, 0.664);
+          box-shadow: -2px 4px 8px rgba(105, 6, 97, 0.664);
+  position: fixed;
+  top: center;
+  right: 0;
+  display: block;
+  z-index: 100;
+}
+
+.button-socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.button-hide {
+  /*display: none;
+        si éste lo dejo sin comentar, es como quiero que se vea el botón 
+        cuando no tiene el mouse encima*/
+  visibility: hidden;
+}
+
+.button-socials:hover {
+  color: #870299;
+  background-color: plum;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button-socials:hover ul li a {
+  color: #870299;
+  background-color: plum;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0 5px;
+  padding-left: 8px;
+  visibility: visible;
+}
+
+/*cuando el mouse esta arriba queda como quiero,
+pero no así el boton inicial*/
+/*Fin boton redes*/
+/* Inicio Seccion GALERIA */
+h1 {
+  font-size: 4rem;
+  color: #0fcaab;
+  text-align: center;
+  margin: 4rem 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+h2 {
+  font-size: 3rem;
+  color: orchid;
+}
+
+h3 {
+  font-size: 2rem;
+  color: orchid;
+  margin: 1rem 0;
+}
+
+strong {
+  font-size: 2rem;
+}
+
+section .see-more {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: indigo;
+  text-decoration: underline;
+  text-align: center;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+  -webkit-text-decoration-color: #f38cd4;
+          text-decoration-color: #f38cd4;
+  text-decoration-thickness: 25%;
+  display: block;
+  margin: 4rem 0 10rem 0;
+}
+
+.escala:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  border-radius: 10px;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+/*fin seccion galeria*/
+/*Inicio seccion NOSOTROS*/
+h4 {
+  color: orchid;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+
+.us {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+}
+
+/*Fin seccion NOSOTROS*/
+/*Inicio Footer*/
+footer {
+  background-color: #0c0c0c;
+}
+
+footer ul a {
+  color: orange;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 2rem 3rem;
+}
+
+footer ul li a {
+  color: orange;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 2rem 3rem;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-p {
+  color: orange;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-style: italic;
+}
+
+/*Fin Footer*/
+/*html GALERIA*/
+/*Me falta editarle los comandos al carousel porque no quedan legibles*/
+.bg-color-gallery {
+  background-color: #0c0c0c;
+}
+
+.carousel-centrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4rem 0;
+}
+
+.footer-gal {
+  font-size: 1.3rem;
+}
+
+/*html CONTACTO*/
+.body-contact {
+  color: #5D6063;
+  background-color: #121212;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.speaker-form-section {
+  text-align: center;
+  background-color: #9b1171;
+  border: 1px solid #d9d6dc;
+  border-radius: 4px;
+  margin: 40px 0;
+  padding: 50px;
+}
+
+.speaker-form-section h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.speaker-form-section p {
+  font-size: 30px;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-row input[type="text"], input[type="email"] {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 16px 0;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+  border: 1px solid red;
+  color: red;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.mensaje {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #9b1171;
+  color: orchid;
+  border: 1px solid #9b1171;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.send:hover {
+  background-color: whitesmoke;
+  color: orchid;
+  border: 1px solid #121212;
+}
+
+.more-info {
+  color: whitesmoke;
+  font-size: smaller;
+}
+
+.subp {
+  color: whitesmoke;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=styles.css.map */

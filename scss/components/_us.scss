@@ -1,0 +1,16 @@
+@import '../functions/mixins';
+@import '../functions/operations';
+
+/*Inicio seccion NOSOTROS*/
+h4 {
+	@include titulos;
+	font-size: $size;
+	padding-top: 5rem;
+}
+.us {
+	font-family: 'Libre Baskerville', serif;
+	font-size: ($size * 2)-2;
+	font-weight: bold;
+	margin-bottom: 7rem;
+}
+/*Fin seccion NOSOTROS*/

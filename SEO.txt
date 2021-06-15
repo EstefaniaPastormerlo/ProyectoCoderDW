@@ -1,0 +1,24 @@
+Aplicando SEO a mi proyecto.
+
+Cambié el <Title>
+Cambié el <meta name="description" content="">
+
+
+agregué estos keywords:
+Diseño gráfico, Diseño web,
+Impresión, clientes, McLovin, 
+Estudio McLovin, Galería, Tienda,
+Tienda de productos
+
+Corregí algunos de los ALT de las imagenes para que se correspondan
+con las KW
+
+agregue open graph
+Este de aca abajo no entiendo bien que ruta tengo que poner para que levante la imagen
+<meta property="og:image" content="https://mclovin.com.ar/images/logos-mclovin-color.png">
+agregue el favicon (quedo medio deforme, despues lo ajustaré)
+
+Los enlaces creo que estan balanceados,
+Externos solo a la tienda, y redes.
+
+Video aun no, pero es la idea agregar alguno para el proyecto final.

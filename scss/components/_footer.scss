@@ -1,0 +1,37 @@
+@import '../functions/mixins';
+
+/*Inicio Footer*/
+footer {
+	background-color: rgb(12, 12, 12);
+	ul {
+		a {
+			color: orange;
+			font-size: 1.5em;
+			text-decoration: none;
+			margin: 2rem 3rem;
+		}
+		li {
+			a {
+				color: orange;
+				font-size: 1.5em;
+				text-decoration: none;
+				margin: 2rem 3rem;
+			}
+		}
+	}
+}
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+	align-items: center;
+}
+.footer-p {
+	color: orange;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-bottom: 2rem;
+	@include italic;
+}
+/*Fin Footer*/
