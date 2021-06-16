@@ -22,18 +22,6 @@ header .logo-nav {
   height: 7rem;
 }
 
-header .nav-centrado {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 header #navbarNav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,6 +31,11 @@ header #navbarNav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.5rem;
+}
+
+header .li-margin {
+  margin-right: 2rem;
 }
 
 /* FIN HEADER */

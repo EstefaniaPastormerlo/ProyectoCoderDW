@@ -6,14 +6,13 @@ header {
     .logo-nav {
         height: 7rem;
     }
-    .nav-centrado {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     #navbarNav {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        font-size: 1.5rem;
+    }
+    .li-margin {
+        margin-right: 2rem;
     }
 } /* FIN HEADER */
