@@ -1,44 +1,43 @@
 /*BOTON REDES FLOAT*/
-    .button-socials {
-        background-color: rgb(135, 2, 153);
-        border: none;
-        color: whitesmoke;
-        padding: 8px;
-        font-size: 1.5rem;
-        font-family: 'Montserrat', sans-serif;
-        border-radius: 30px 0 0 30px;
-        box-shadow: -2px 4px 8px rgba(105, 6, 97, 0.664);
-        position: fixed;
-        top: center;
-        right: 0;
-        display: block;
-        z-index: 100;
+.button-socials {
+    background-color: rgb(135, 2, 153);
+    border: none;
+    color: whitesmoke;
+    padding: 8px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px 0 0 30px;
+    box-shadow: -2px 4px 8px rgba(105, 6, 97, 0.664);
+    position: fixed;
+    top: center;
+    right: 0;
+    display: block;
+    z-index: 100;
         ul {
             display: flex;
             list-style: none;
         }
-    }
-    .button-hide {
-        /*display: none;
-        si éste lo dejo sin comentar, es como quiero que se vea el botón 
-        cuando no tiene el mouse encima*/
-        visibility: hidden;
-    }
-    .button-socials:hover {
-        color: rgb(135, 2, 153);
-        background-color: plum;
-        transition: 0.4s;
-        ul li a {
-            color: rgb(135, 2, 153);
-            background-color: plum;
-            transition: 0.5s;
-            margin: 0 5px;
-            padding-left: 8px;
-            visibility: visible;
+        @media (max-width:576px) {
+            display: none;
         }
+}
+.button-hide {
+    visibility: hidden;
+}
+.button-socials:hover {
+    color: rgb(135, 2, 153);
+    background-color: plum;
+    transition: 0.4s;
+    ul li a {
+    color: rgb(135, 2, 153);
+    background-color: plum;
+    transition: 0.5s;
+    margin: 0 5px;
+    padding-left: 8px;
+    visibility: visible;
     }
+}
     
-    /*cuando el mouse esta arriba queda como quiero,
-pero no así el boton inicial*/
+
 
 /*Fin boton redes*/

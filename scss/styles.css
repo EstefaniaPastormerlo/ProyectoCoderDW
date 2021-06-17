@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -90,10 +89,13 @@ section .autor {
   list-style: none;
 }
 
+@media (max-width: 576px) {
+  .button-socials {
+    display: none;
+  }
+}
+
 .button-hide {
-  /*display: none;
-        si éste lo dejo sin comentar, es como quiero que se vea el botón 
-        cuando no tiene el mouse encima*/
   visibility: hidden;
 }
 
@@ -114,8 +116,6 @@ section .autor {
   visibility: visible;
 }
 
-/*cuando el mouse esta arriba queda como quiero,
-pero no así el boton inicial*/
 /*Fin boton redes*/
 /* Inicio Seccion GALERIA */
 h1 {
