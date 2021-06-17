@@ -6,7 +6,6 @@
 h1 {
 	font-size: $size * 2;
 	color: rgb(15, 202, 171);
-	text-align: center;
 	margin: 4rem 0;
 	align-content: center;
 }
@@ -18,7 +17,6 @@ h2 {
 h3 {
 	font-size: $size;
 	@include titulos;
-	margin: 1rem 0;
 }
 strong {
 	font-size: $size;
