@@ -7,7 +7,7 @@ h1 {
 	font-size: $size * 2;
 	color: rgb(15, 202, 171);
 	margin: 4rem 0;
-	align-content: center;
+	justify-content: center;
 }
 
 h2 {
@@ -42,5 +42,8 @@ section {
 		border-radius: 10px;
 		transition: ease 0.5s;
 	}
+}
+section div p {
+	color: white;
 }
 /*fin seccion galeria*/

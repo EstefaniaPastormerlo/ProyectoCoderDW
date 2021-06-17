@@ -122,8 +122,9 @@ h1 {
   font-size: 4rem;
   color: #0fcaab;
   margin: 4rem 0;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 h2 {
@@ -164,6 +165,10 @@ section .see-more {
   transition: ease 0.5s;
 }
 
+section div p {
+  color: white;
+}
+
 /*fin seccion galeria*/
 /*Inicio seccion NOSOTROS*/
 h4 {
@@ -177,6 +182,7 @@ h4 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 7rem;
+  color: white;
 }
 
 /*Fin seccion NOSOTROS*/
