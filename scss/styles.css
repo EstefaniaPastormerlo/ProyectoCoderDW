@@ -13,10 +13,6 @@ body {
 }
 
 /* INICIO HEADER */
-header .color-fondo-nav {
-  background-color: #121212;
-}
-
 header .lista-nav {
   display: -webkit-box;
   display: -ms-flexbox;
