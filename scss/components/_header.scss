@@ -3,13 +3,13 @@ header {
     .color-fondo-nav {
         background-color: #121212;
     }
-    #navbarNav {
+    .lista-nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
         font-size: 1.5rem;
     }
-    .li-margin {
+    .nav-margin {
         margin-left: 2rem;
     }
     @media (max-width:992px) {
