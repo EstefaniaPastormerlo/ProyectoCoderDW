@@ -37,19 +37,33 @@ header .nav-margin {
 
 /* FIN HEADER */
 /* INICIO 1ra Section */
-section cite {
-  font-family: 'Libre Baskerville', serif;
+section p {
+  margin-top: 5em;
+}
+
+section p cite {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2.5rem;
   color: #000;
-  text-shadow: 1px 1px #fff;
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  section p cite {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section p cite {
+    font-size: 1.5rem;
+  }
 }
 
 section .autor {
   text-align: center;
   color: #616161;
   font-weight: bold;
-  margin-top: 2rem;
 }
 
 .degrade-cite {

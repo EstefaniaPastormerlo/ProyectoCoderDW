@@ -2,18 +2,25 @@
 
 /* INICIO 1ra Section */
 section {
-	cite {
-		font-family: 'Libre Baskerville', serif;
-		font-size: 2.5rem;
-		color: #000;
-		text-shadow: 1px 1px #fff;
-		@include italic;
+	p {
+		margin-top: 5em;
+		cite {
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			font-size: 2.5rem;
+			color: #000;
+			@include italic;
+			@media (max-width:768px) {
+				font-size: 2rem;
+			}
+			@media (max-width:576px) {
+				font-size: 1.5rem;
+			}
+		}
 	}
 	.autor {
 		text-align: center;
 		color: rgb(97, 97, 97);
 		font-weight: bold;
-		margin-top: 2rem;
 	}
 }
 .degrade-cite {
