@@ -13,6 +13,10 @@ body {
 }
 
 /* INICIO HEADER */
+header .bgc-header {
+  background-color: #121212;
+}
+
 header .lista-nav {
   display: -webkit-box;
   display: -ms-flexbox;
