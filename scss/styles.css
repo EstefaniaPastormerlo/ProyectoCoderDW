@@ -145,13 +145,9 @@ section .see-more {
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
-  color: indigo;
+  color: #9b1171;
   text-decoration: underline;
   text-align: center;
-  -webkit-text-decoration-style: wavy;
-          text-decoration-style: wavy;
-  -webkit-text-decoration-color: #f38cd4;
-          text-decoration-color: #f38cd4;
   text-decoration-thickness: 25%;
   display: block;
   margin: 4rem 0 10rem 0;
