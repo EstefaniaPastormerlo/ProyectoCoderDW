@@ -1,20 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--ICONOS-->
-    <script src="https://kit.fontawesome.com/90c953011e.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- Mi CSS -->
-    <link rel="stylesheet" href="scss/styles.css">
-    <title>Estudio McLovin</title>
-  </head>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--ICONOS-->
+  <script src="https://kit.fontawesome.com/90c953011e.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="scss/styles.css">
+  <title>Estudio McLovin</title>
+</head>
+
 <body>
   <header id="home" class="sticky-sm-top">
-    <nav class="navbar navbar-expand-lg navbar-dark color-fondo-nav p-3"> <!--hamburguesa, color-->
+    <nav class="navbar navbar-expand-lg navbar-dark color-fondo-nav p-3">
+      <!--hamburguesa, color-->
       <div class="container-fluid">
         <a href="index.html#home"><img src="images/logos-mclovin-color.png" alt="Logo" class="logo-nav"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -56,13 +60,12 @@
       </li>
     </ul>
   </button>
-  <section class= "speaker-form-section">
+  <section class="speaker-form-section">
     <h1>¿En qué podemos ayudarte?</h1>
-    <p class="more-info">Si necesitas más información, presupuestos</p>
-    <p class="more-info"> o asesoramiento, no dudes en preguntarnos.</p>
+    <p class="more-info">Si necesitas más información, presupuestos o asesoramiento, no dudes en preguntarnos.</p>
     <p class="subp">Dejanos tu consulta!</p>
   </section>
-  <form action="/server/" method= "POST" class="body-contact">
+  <form action="/server/" method="POST" class="body-contact">
     <div class="form-row">
       <label for="name">Nombre</label>
       <input type="text" id="name" name="nombre" required>
@@ -72,34 +75,34 @@
       <textarea name="mensaje" id="msj" cols="30" rows="10" class="mensaje"></textarea>
       <fieldset>
         <legend>¿Cómo nos conociste?</legend>
-        
+
         <label for="charla1">IG</label>
         <input type="radio" name="check" id="charla1" required>
-        
+
         <label for="charla2">FB</label>
         <input type="radio" name="check" id="charla2" required>
-        
+
         <label for="charla3">Publicidad</label>
         <input type="radio" name="check" id="charla3" required>
-        
+
         <label for="charla4">Recomendación</label>
-        <input
-         type="radio" name="check" id="charla4" required>
+        <input type="radio" name="check" id="charla4" required>
       </fieldset>
       <button type="submit" class="send">Enviar</button>
     </div>
   </form>
-    
-    <footer>
-      <ul class="footer-nav">
-        <a href="https://www.instagram.com/estudiomclovin/"><i class="fab fa-instagram-square"></i></a>
-        <a href="https://www.facebook.com/estudiomclovin/"><i class="fab fa-facebook"></i></a>
-        <li> <a href="galeria.html">Galería</a> </li>
-        <li> <a href="index.html#nosotros">Nosotros</a> </li>
-        <li> <a href="https://www.mclovin.com.ar/tienda/">Tienda</a></li>
-        <a href="index.html#home"><img src="images/logo-mclovin-footer.png" alt="Logo"></a>
-      </ul>
-      <p class="footer-p">&#169<em>McLovin 2021 - Buenos Aires - Argentina</em></p>
-    </footer>
+
+  <footer>
+    <ul class="footer-nav">
+      <a href="https://www.instagram.com/estudiomclovin/"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://www.facebook.com/estudiomclovin/"><i class="fab fa-facebook"></i></a>
+      <li> <a href="galeria.html">Galería</a> </li>
+      <li> <a href="index.html#nosotros">Nosotros</a> </li>
+      <li> <a href="https://www.mclovin.com.ar/tienda/">Tienda</a></li>
+      <a href="index.html#home"><img src="images/logo-mclovin-footer.png" alt="Logo"></a>
+    </ul>
+    <p class="footer-p">&#169<em>McLovin 2021 - Buenos Aires - Argentina</em></p>
+  </footer>
 </body>
+
 </html>
