@@ -8,10 +8,15 @@ h4 {
 	padding-top: 5rem;
 }
 .us {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: ($size * 2)-2;
-	font-weight: bold;
 	margin-bottom: 7rem;
 	color: white;
+	@media (max-width:768px) {
+		font-size: 1.5rem;
+	}
+	@media (max-width:576px) {
+		font-size: 1rem;
+	}
 }
 /*Fin seccion NOSOTROS*/
