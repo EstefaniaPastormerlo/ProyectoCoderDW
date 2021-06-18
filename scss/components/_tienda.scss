@@ -1,0 +1,11 @@
+/*sección tienda*/ 
+@import '../functions/mixins';
+@import '../functions/operations';
+
+.card-text-color {
+    color: #000;
+    margin: auto;
+}
+.btn-margin {
+    margin-bottom: 1rem;
+}
