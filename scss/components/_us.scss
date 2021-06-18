@@ -5,12 +5,12 @@
 h4 {
 	@include titulos;
 	font-size: $size;
-	padding-top: 5rem;
+	padding-top: 3rem;
 }
 .us {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: ($size * 2)-2;
-	margin-bottom: 7rem;
+	margin: 1rem 2rem 7rem 2rem;
 	color: white;
 	@media (max-width:768px) {
 		font-size: 1.5rem;

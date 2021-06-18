@@ -216,13 +216,13 @@ section div p {
 h4 {
   color: orchid;
   font-size: 2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .us {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
-  margin-bottom: 7rem;
+  margin: 1rem 2rem 7rem 2rem;
   color: white;
 }
 
