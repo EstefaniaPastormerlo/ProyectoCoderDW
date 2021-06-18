@@ -8,6 +8,12 @@ h1 {
 	color: rgb(15, 202, 171);
 	margin: 4rem 0;
 	justify-content: center;
+	@media (max-width:768px) {
+		font-size: 3rem;
+	}
+	@media (max-width:576px) {
+		font-size: 2rem;
+	}
 }
 
 h2 {
