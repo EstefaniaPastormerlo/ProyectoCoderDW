@@ -19,10 +19,19 @@ h1 {
 h2 {
 	font-size: $size + 1;
 	@include titulos;
+	@media (max-width:992px) {
+		font-size: 2rem;
+	}
+	@media (max-width:768px) {
+		font-size: 1.5rem;
+	}
 }
 h3 {
 	font-size: $size;
 	@include titulos;
+	@media (max-width:768px) {
+		font-size: $size / 2;
+	}
 }
 strong {
 	font-size: $size;

@@ -159,9 +159,27 @@ h2 {
   color: orchid;
 }
 
+@media (max-width: 992px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 h3 {
   font-size: 2rem;
   color: orchid;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1rem;
+  }
 }
 
 strong {
