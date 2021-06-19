@@ -18,6 +18,10 @@ header .bgc-header {
   background-color: #121212;
 }
 
+header .mc-logo {
+  size: auto;
+}
+
 header .lista-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +47,7 @@ header .nav-margin {
 /* FIN HEADER */
 /* INICIO 1ra Section */
 section p {
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 section p cite {
