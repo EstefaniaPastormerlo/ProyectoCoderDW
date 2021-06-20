@@ -34,8 +34,12 @@ h3 {
 	}
 }
 strong {
-	font-size: $size;
+	font-size: ($size / 2) + 0.5;
 	color: #ffff00;
+	font-style: italic;
+	@media (max-width:768px) {
+		font-size: $size / 2;
+	}
 }
 section {
 	.see-more {
@@ -48,6 +52,9 @@ section {
 		text-decoration-thickness: 25%;
 		display: block;
 		margin: 4rem 0 10rem 0;
+		@media (max-width:768px) {
+			font-size: $size / 2;
+		}
 	}
 }
 .escala {

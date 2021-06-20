@@ -47,7 +47,7 @@ header .nav-margin {
 /* FIN HEADER */
 /* INICIO 1ra Section */
 section p {
-  margin-top: 4em;
+  margin-top: 2rem;
 }
 
 section p cite {
@@ -187,8 +187,15 @@ h3 {
 }
 
 strong {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffff00;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  strong {
+    font-size: 1rem;
+  }
 }
 
 section .see-more {
@@ -201,6 +208,12 @@ section .see-more {
   text-decoration-thickness: 25%;
   display: block;
   margin: 4rem 0 10rem 0;
+}
+
+@media (max-width: 768px) {
+  section .see-more {
+    font-size: 1rem;
+  }
 }
 
 .escala:hover {
