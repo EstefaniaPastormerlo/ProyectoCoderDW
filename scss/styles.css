@@ -138,12 +138,10 @@ section .autor {
 /*Fin boton redes*/
 /* Inicio Seccion GALERIA */
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #0fcaab;
-  margin: 4rem 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -199,15 +197,22 @@ strong {
 }
 
 section .see-more {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
   color: #9b1171;
   text-decoration: underline;
   text-align: center;
-  text-decoration-thickness: 25%;
+  text-decoration-thickness: 15%;
   display: block;
   margin: 4rem 0 10rem 0;
+}
+
+section .see-more:hover {
+  color: orchid;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(155, 17, 114, 0.4);
 }
 
 @media (max-width: 768px) {
@@ -216,16 +221,33 @@ section .see-more {
   }
 }
 
-.escala:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  border-radius: 10px;
-  -webkit-transition: ease 0.5s;
-  transition: ease 0.5s;
+.item-img {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imp-align {
+  text-align: right;
 }
 
 section div p {
   color: white;
+}
+
+section div p a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #870299;
+}
+
+section div p a:hover {
+  color: orchid;
+  font-style: italic;
 }
 
 /*fin seccion galeria*/
@@ -307,6 +329,11 @@ footer ul li a {
 
 .btn-margin {
   margin-bottom: 1rem;
+}
+
+.h-tienda {
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 body {
