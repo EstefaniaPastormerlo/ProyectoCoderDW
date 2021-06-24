@@ -62,9 +62,12 @@ section {
 	}
 }
 .item-img {
-	margin-top: 10rem;
+	margin-top: 7rem;
 	display: flex;
 	align-items: center;
+	@media (max-width:576px) {
+		flex-direction: column;
+	}
 }
 .imp-align {
 	text-align: right;
