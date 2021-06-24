@@ -277,24 +277,32 @@ h4 {
   color: orchid;
   font-size: 2rem;
   padding-top: 3rem;
+  margin-left: 3rem;
 }
 
 .us {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2rem;
-  margin: 1rem 2rem 7rem 2rem;
+  font-size: 1.33333rem;
+  margin: 1rem 2rem 2rem 3rem;
   color: white;
 }
 
 @media (max-width: 768px) {
   .us {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 576px) {
-  .us {
-    font-size: 1rem;
+.us-dos {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin: 0rem 2rem 7rem 3rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .us-dos {
+    font-size: 1.5rem;
   }
 }
 
