@@ -319,9 +319,22 @@ footer {
 
 footer ul a {
   color: orange;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-decoration: none;
   margin: 2rem 3rem;
+}
+
+@media (max-width: 992px) {
+  footer ul a {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 768px) {
+  footer ul a {
+    font-size: 0.9em;
+    margin-right: 2rem;
+  }
 }
 
 footer ul li a {
@@ -329,6 +342,16 @@ footer ul li a {
   font-size: 1.5em;
   text-decoration: none;
   margin: 2rem 3rem;
+}
+
+@media (max-width: 992px) {
+  footer ul li a {
+    font-size: 1em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .footer-nav {
@@ -348,10 +371,10 @@ footer ul li a {
 
 .footer-p {
   color: orange;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   padding-bottom: 2rem;
-  font-style: italic;
+  font-family: "Roboto", sans-serif;
 }
 
 /*Fin Footer*/
