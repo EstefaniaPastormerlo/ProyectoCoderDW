@@ -45,9 +45,9 @@ header .nav-margin {
 }
 
 /* FIN HEADER */
-/* INICIO 1ra Section */
+/* INICIO Section Cite */
 section p {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 section p cite {
@@ -73,6 +73,7 @@ section .autor {
   text-align: center;
   color: #616161;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .degrade-cite {
@@ -80,9 +81,10 @@ section .autor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 4rem;
 }
 
-/* FIN 1ra Section */
+/* FIN Section Cite */
 /*BOTON REDES FLOAT*/
 .button-socials {
   background-color: #870299;
