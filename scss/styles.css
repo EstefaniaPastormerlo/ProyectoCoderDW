@@ -292,22 +292,26 @@ h4 {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .us {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
 .us-dos {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
-  margin: 0rem 2rem 7rem 3rem;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 7rem;
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .us-dos {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 3rem;
   }
 }
 
