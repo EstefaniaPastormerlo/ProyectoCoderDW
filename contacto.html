@@ -18,8 +18,7 @@
   <title>Estudio McLovin // Diseño gráfico + Diseño Web + Impresión</title>
   <link rel="shortcut icon" href="images/favicon.png">
 </head>
-
-<body>
+<body class="bgc-body">
   <header id="home" class="sticky-sm-top">
     <nav class="navbar navbar-expand-lg navbar-dark p-3 bgc-header">
       <!--hamburguesa, color-->
@@ -48,54 +47,45 @@
       </div>
     </nav>
   </header>
-
-  <button class="button-socials">
-    <!--BOTON REDES FLOAT-->
-    <ul>
-      <li> ♥ </li>
-      <li class="button-hide">
-        <a href="https://www.instagram.com/estudiomclovin/">
-          <i class="fab fa-instagram-square"></i>
-        </a>
-      </li>
-      <li class="button-hide">
-        <a href="https://www.facebook.com/estudiomclovin/">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    </ul>
-  </button>
-  <section class="speaker-form-section">
-    <h1>¿En qué podemos ayudarte?</h1>
-    <p class="more-info">Si necesitas más información, presupuestos o asesoramiento, no dudes en preguntarnos.</p>
-    <p class="subp">Dejanos tu consulta!</p>
-  </section>
-  <form action="/server/" method="POST" class="body-contact">
-    <div class="form-row">
-      <label for="name">Nombre</label>
-      <input type="text" id="name" name="nombre" required>
-      <label for="email">Email</label>
-      <input type="email" name="mail" id="email" placeholder="mimail@email.com" required>
-      <label for="msj">Mensaje</label>
-      <textarea name="mensaje" id="msj" cols="30" rows="10" class="mensaje"></textarea>
-      <fieldset>
-        <legend>¿Cómo nos conociste?</legend>
-
-        <label for="charla1">IG</label>
-        <input type="radio" name="check" id="charla1" required>
-
-        <label for="charla2">FB</label>
-        <input type="radio" name="check" id="charla2" required>
-
-        <label for="charla3">Publicidad</label>
-        <input type="radio" name="check" id="charla3" required>
-
-        <label for="charla4">Recomendación</label>
-        <input type="radio" name="check" id="charla4" required>
-      </fieldset>
-      <button type="submit" class="send">Enviar</button>
+  <div> <!-- Inicio formulario -->
+    <h1 class="h1-bgc">¿Cómo podemos ayudarte?</h1>
+    <div class="container">
+      <section class="speaker-form-section">
+        <p class="more-info">Si necesitas más información, presupuesto o asesoramiento, envianos un mail contandonos sobre tu emprendimiento
+          o empresa y en qué servicio estás interesado.
+        </p>
+        <h2>Dejanos tu consulta!</h2>
+      </section>
     </div>
-  </form>
+    <div class="container">
+      <form action="/server/" method="POST" class="body-contact">
+        <div class="form-row">
+          <label for="name">► Nombre:</label>
+          <input type="text" id="name" name="nombre" placeholder="Nombre y apellido" required>
+          <label for="email" class="contact-marg">► Email:</label>
+          <input type="email" name="mail" id="email" placeholder="tumail@email.com" required>
+          <label for="msj" class="contact-marg">► Mensaje:</label>
+          <textarea name="mensaje" id="msj" cols="30" rows="10"  placeholder="Hola! Cómo están? Necesito asesoramiento sobre el servicio de..." class="mensaje"></textarea>
+          <fieldset>
+            <legend class="contact-marg">► ¿Cómo nos conociste?</legend>
+    
+            <label for="charla1">IG</label>
+            <input type="radio" name="check" id="charla1" required>
+    
+            <label for="charla2">FB</label>
+            <input type="radio" name="check" id="charla2" required>
+    
+            <label for="charla3">Publicidad</label>
+            <input type="radio" name="check" id="charla3" required>
+    
+            <label for="charla4">Recomendación</label>
+            <input type="radio" name="check" id="charla4" required>
+          </fieldset>
+          <button type="submit" class="send">Enviar</button>
+        </div>
+      </form>
+    </div>    
+  </div>
   <footer>
     <ul class="footer-nav">
       <a href="https://www.instagram.com/estudiomclovin/"><i class="fab fa-instagram"></i></a>
