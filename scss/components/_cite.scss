@@ -5,9 +5,8 @@ section {
 	p {
 		cite {
 			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-			font-size: 2.5rem;
+			font-size: 2.2rem;
 			color: #000;
-			padding-top: 10rem;
 			@include italic;
 			@media (max-width:768px) {
 				font-size: 2rem;
@@ -21,13 +20,17 @@ section {
 		text-align: center;
 		color: rgb(97, 97, 97);
 		font-weight: bold;
-		margin-bottom: 2rem;
-		margin-top: 3rem;
+		margin-bottom: 1.5rem;
+		margin-top: 2rem;
 	}
 }
+.porfa {
+	margin: 2rem 3rem 0 3rem;
+}
 .degrade-cite {
-	background: linear-gradient(to bottom, rgb(12, 12, 12) 20px, #fff, rgb(15, 202, 171));
+	background: white;
+	opacity: 80%;	
 	display: flex;
-	margin-top: 6rem;
+	margin-top: 5rem;
 }
 /* FIN Section Cite */ 
