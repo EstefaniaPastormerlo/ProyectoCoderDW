@@ -1,11 +1,13 @@
 @import '../functions/mixins';
+@import '../functions/operations';
+
 
 /*Inicio Footer*/
 footer {
-	background-color: rgb(12, 12, 12);
+	background-color: nth($colors, 1);
 	ul {
 		a {
-			color: orange;
+			color: nth($colors, 8);
 			font-size: 1.3em;
 			text-decoration: none;
 			margin: 2rem 3rem;
@@ -19,7 +21,7 @@ footer {
 		}
 		li {
 			a {
-				color: orange;
+				color: nth($colors, 8);
 				font-size: 1.5em;
 				text-decoration: none;
 				margin: 2rem 3rem;
@@ -39,7 +41,7 @@ footer {
 	align-items: center;
 }
 .footer-p {
-	color: orange;
+	color: nth($colors, 8);
 	font-size: 1rem;
 	text-align: center;
 	padding-bottom: 2rem;

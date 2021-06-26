@@ -11,11 +11,24 @@
 @import 'components/tienda';
 
 body {
-    background-color:rgb(12, 12, 12);
+    background-color:nth($colors, 1);
+}
+.bgc1 {
+    background: nth($colors, 4);
+}
+.bgc2 {
+    background: nth($colors, 5);
+}
+.bgc3 {
+    background: nth($colors, 2);
+    align-content: center;
+}
+.bgc4 {
+    background: nth($colors, 6);
 }
 
 /*GALERIA.html*/
-/*Me falta editarle los comandos al carousel porque no quedan legibles*/
+/*Me falta editarle los comandos al carousel porque no quedan legibles
 .bg-color-gallery {
     background-color: rgb(12, 12, 12);
 }
@@ -23,11 +36,11 @@ body {
     display: flex;
     justify-content: center;
     margin: 4rem 0;
-}
+}*/
 
 /*CONTACTO.html*/
 .bgc-body {
-    background-color: orchid;
+    background-color: nth($colors, 2);
 }
 .h1-bgc {
     @include bg-colors;
@@ -36,7 +49,7 @@ body {
     margin-top: 5rem;
 }
 .body-contact {
-    color: #121212;
+    color: nth($colors, 1);
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -54,7 +67,7 @@ body {
     border-radius: 5px;
 }
 .more-info {
-    color: whitesmoke;
+    color: nth($colors, 3);
     font-size: 1em;
     padding: 1rem 2rem 0 2rem;
 }
@@ -78,13 +91,13 @@ body {
 }
 .form-row input[type="text"]:invalid,
 .form-row input[type="email"]:invalid {
-    border: 2px solid rgb(155, 17, 113);
+    border: 2px solid nth($colors, 7);
     color: red;
     box-shadow: none;
 }
 .mensaje {
     background-color: #fff;
-    border: 2px solid rgb(155, 17, 113);
+    border: 2px solid nth($colors, 7);
     border-radius: 4px;
     width: 100%;
     padding: 8px;
@@ -103,7 +116,7 @@ body {
     margin-top: 20px;
 }
 .send:hover {
-    background-color: whitesmoke;
+    background-color: nth($colors, 3);
     color: rgb(135, 2, 153);
     border-radius: 50px;
     border: double;

@@ -28,7 +28,7 @@ section {
 	margin: 2rem 3rem 0 3rem;
 }
 .degrade-cite {
-	background: white;
+	background: nth($colors, 3);
 	opacity: 80%;	
 	display: flex;
 	margin-top: 5rem;

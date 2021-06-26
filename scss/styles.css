@@ -214,7 +214,7 @@ h2 {
 
 strong {
   font-size: 1.5rem;
-  color: #ffff00;
+  color: #FFFF00;
   font-style: italic;
 }
 
@@ -329,7 +329,7 @@ h6 {
 /*Fin seccion NOSOTROS*/
 /*Inicio Footer*/
 footer {
-  background-color: #0c0c0c;
+  background-color: #121212;
 }
 
 footer ul a {
@@ -442,25 +442,35 @@ h3 {
 }
 
 body {
-  background-color: #0c0c0c;
+  background-color: #121212;
+}
+
+.bgc1 {
+  background: #0fcaab;
+}
+
+.bgc2 {
+  background: #870299;
+}
+
+.bgc3 {
+  background: orchid;
+}
+
+.bgc4 {
+  background: #FFFF00;
 }
 
 /*GALERIA.html*/
-/*Me falta editarle los comandos al carousel porque no quedan legibles*/
+/*Me falta editarle los comandos al carousel porque no quedan legibles
 .bg-color-gallery {
-  background-color: #0c0c0c;
+    background-color: rgb(12, 12, 12);
 }
-
 .carousel-centrado {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 4rem 0;
-}
-
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}*/
 /*CONTACTO.html*/
 .bgc-body {
   background-color: orchid;

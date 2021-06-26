@@ -4,7 +4,7 @@
 /* Inicio Seccion GALERIA */
 h1 {
 	font-size: $size * 1.5;
-	color: rgb(15, 202, 171);
+	color: nth($colors, 4);
 	margin-top: 10rem;
 	text-align: center;
 	@media (max-width:768px) {
@@ -41,7 +41,7 @@ h2 {
 }
 strong {
 	font-size: ($size / 2) + 0.5;
-	color: #ffff00;
+	color: nth($colors, 6);
 	font-style: italic;
 	@media (max-width:768px) {
 		font-size: $size / 2;
@@ -52,14 +52,14 @@ section {
 		font-size: $size - 0.5;
 		font-weight: bold;
 		font-style: italic;
-		color: rgb(155, 17, 113);
+		color: nth($colors, 7);
 		text-decoration: underline;
 		text-align: center;
 		text-decoration-thickness: 15%;
 		display: block;
 		margin: 4rem 0 10rem 0;
 		&:hover {
-			color: orchid;
+			color: nth($colors, 2);
 			cursor: pointer;
 			text-decoration: none;
 			background-color: rgba(155, 17, 114, 0.4);
@@ -85,9 +85,9 @@ section div p {
 	a {
 		text-decoration: none;
 		cursor: pointer;
-		color: rgb(135, 2, 153);
+		color: nth($colors, 5);
 		&:hover {
-			color: orchid;
+			color: nth($colors, 2);
 			font-style: italic;
 		}
 	}

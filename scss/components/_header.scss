@@ -1,7 +1,7 @@
 /* INICIO HEADER */
 header { 
     .bgc-header {
-        background-color: #121212;
+        background-color: nth($colors, 1);
     }
     .mc-logo {
         size: auto;
