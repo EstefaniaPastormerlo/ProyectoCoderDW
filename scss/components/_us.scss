@@ -2,7 +2,7 @@
 @import '../functions/operations';
 
 /*Inicio seccion NOSOTROS*/
-h4 {
+h6 {
 	@include titulos;
 	font-size: $size;
 	padding-top: 3rem;

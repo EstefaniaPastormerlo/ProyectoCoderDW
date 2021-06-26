@@ -25,12 +25,18 @@ h2 {
 		font-size: 1.5rem;
 	}
 }
-h3 {
-	font-size: $size;
-	@include titulos;
+.h2-inverso {
+	margin-top: 7rem;
+	display: flex;
+	align-items: center;
+	text-align: right;
 	@media (max-width:768px) {
-		font-size: $size / 2;
-		margin-top: 2rem;
+	flex-direction: column-reverse;
+	text-align: left;
+	}
+	@media (max-width:576px) {
+		flex-direction: column-reverse;
+		text-align: left;
 	}
 }
 strong {
@@ -69,13 +75,6 @@ section {
 	align-items: center;
 	@media (max-width:576px) {
 		flex-direction: column;
-	}
-}
-.inverso {
-	text-align: right;
-	@media (max-width:768px) {
-	flex-direction: column-reverse;
-	text-align: left;
 	}
 }
 section div p {

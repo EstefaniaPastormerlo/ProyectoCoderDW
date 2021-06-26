@@ -46,14 +46,11 @@ header .nav-margin {
 
 /* FIN HEADER */
 /* INICIO Section Cite */
-section p {
-  margin-top: 5rem;
-}
-
 section p cite {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2.5rem;
   color: #000;
+  padding-top: 10rem;
   font-style: italic;
 }
 
@@ -73,7 +70,8 @@ section .autor {
   text-align: center;
   color: #616161;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 .degrade-cite {
@@ -81,7 +79,7 @@ section .autor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 /* FIN Section Cite */
@@ -179,15 +177,34 @@ h2 {
   }
 }
 
-h3 {
-  font-size: 2rem;
-  color: orchid;
+.h2-inverso {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
 }
 
 @media (max-width: 768px) {
-  h3 {
-    font-size: 1rem;
-    margin-top: 2rem;
+  .h2-inverso {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .h2-inverso {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: left;
   }
 }
 
@@ -247,20 +264,6 @@ section .see-more:hover {
   }
 }
 
-.inverso {
-  text-align: right;
-}
-
-@media (max-width: 768px) {
-  .inverso {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    text-align: left;
-  }
-}
-
 section div p {
   color: white;
 }
@@ -278,7 +281,7 @@ section div p a:hover {
 
 /*fin seccion galeria*/
 /*Inicio seccion NOSOTROS*/
-h4 {
+h6 {
   color: orchid;
   font-size: 2rem;
   padding-top: 3rem;
@@ -392,9 +395,24 @@ footer ul li a {
   margin-bottom: 1rem;
 }
 
-.h-tienda {
+h3 {
+  font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: orchid;
+}
+
+@media (max-width: 992px) {
+  h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
 .card-margin {
