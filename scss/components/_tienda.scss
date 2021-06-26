@@ -16,3 +16,15 @@
 .card-margin {
     margin-top: 2rem;
 }
+.se-va {
+    @media (max-width:992px) {
+        display: none;
+        visibility: hidden;
+    }
+}
+.se-va2 {
+    @media (max-width:768px) {
+        display: none;
+        visibility: hidden;
+    }
+}

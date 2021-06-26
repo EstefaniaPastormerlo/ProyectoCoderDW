@@ -401,6 +401,20 @@ footer ul li a {
   margin-top: 2rem;
 }
 
+@media (max-width: 992px) {
+  .se-va {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .se-va2 {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 body {
   background-color: #0c0c0c;
 }
