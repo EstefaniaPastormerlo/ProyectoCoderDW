@@ -10,6 +10,7 @@
 @import 'functions/operations';
 @import 'components/tienda';
 
+/*GALERIA.html*/
 body {
     background-color:nth($colors, 1);
 }
@@ -27,7 +28,6 @@ body {
     background: nth($colors, 6);
 }
 
-/*GALERIA.html*/
 /*Me falta editarle los comandos al carousel porque no quedan legibles
 .bg-color-gallery {
     background-color: rgb(12, 12, 12);
