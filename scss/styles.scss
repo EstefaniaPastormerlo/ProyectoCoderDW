@@ -1,123 +1,14 @@
 @import 'base/reset';
 @import 'base/fonts';
+@import 'functions/mixins';
+@import 'functions/operations';
 @import 'components/header';
 @import 'components/cite';
 @import 'components/social-button';
-@import 'components/gallery';
+@import 'components/servicios';
 @import 'components/us';
-@import 'components/footer';
-@import 'functions/mixins';
-@import 'functions/operations';
 @import 'components/tienda';
+@import 'components/footer';
+@import 'components/galeria';
+@import 'components/contacto';
 
-/*GALERIA.html*/
-body {
-    background-color:nth($colors, 1);
-}
-.bgc1 {
-    background: nth($colors, 4);
-}
-.bgc2 {
-    background: nth($colors, 5);
-}
-.bgc3 {
-    background: nth($colors, 2);
-    align-content: center;
-}
-.bgc4 {
-    background: nth($colors, 6);
-}
-
-/*Me falta editarle los comandos al carousel porque no quedan legibles
-.bg-color-gallery {
-    background-color: rgb(12, 12, 12);
-}
-.carousel-centrado {
-    display: flex;
-    justify-content: center;
-    margin: 4rem 0;
-}*/
-
-/*CONTACTO.html*/
-.bgc-body {
-    background-color: nth($colors, 2);
-}
-.h1-bgc {
-    @include bg-colors;
-    padding: 0.5rem 0 0.5rem 0;
-    font-size: 2.5rem;
-    margin-top: 5rem;
-}
-.body-contact {
-    color: nth($colors, 1);
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-}
-.contact-marg {
-    margin-top: 1rem;
-}
-.speaker-form-section {
-    text-align: center;
-    @include bg-colors;
-    padding: 1rem 3rem;
-    margin: 3rem 3rem 0 3rem;
-    border-radius: 5px;
-}
-.more-info {
-    color: nth($colors, 3);
-    font-size: 1em;
-    padding: 1rem 2rem 0 2rem;
-}
-.form-row {
-    margin-bottom: 40px;
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.form-row input[type="text"],input[type="email"] {
-    background-color: #fff;
-    border: 1px solid grey;
-    border-radius: 4px;
-    width: 100%;
-    padding: 8px;
-    font-size: 14px;
-}
-.form-row label {
-    margin-bottom: 16px 0;
-}
-.form-row input[type="text"]:invalid,
-.form-row input[type="email"]:invalid {
-    border: 2px solid nth($colors, 7);
-    color: red;
-    box-shadow: none;
-}
-.mensaje {
-    background-color: #fff;
-    border: 2px solid nth($colors, 7);
-    border-radius: 4px;
-    width: 100%;
-    padding: 8px;
-    font-size: 14px;
-}
-.send {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    @include bg-colors;
-    @include titulos;
-    border-radius: 10px;
-    padding: 6px 16px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.send:hover {
-    background-color: nth($colors, 3);
-    color: rgb(135, 2, 153);
-    border-radius: 50px;
-    border: double;
-}

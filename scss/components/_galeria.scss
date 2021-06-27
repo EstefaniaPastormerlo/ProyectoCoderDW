@@ -1,0 +1,34 @@
+@import 'base/reset';
+@import 'base/fonts';
+@import 'components/header';
+@import 'components/footer';
+@import 'functions/mixins';
+@import 'functions/operations';
+
+/*GALERIA.html*/
+body {
+    background-color:nth($colors, 1);
+}
+.bgc1 {
+    background: nth($colors, 4);
+}
+.bgc2 {
+    background: nth($colors, 5);
+}
+.bgc3 {
+    background: nth($colors, 2);
+    align-content: center;
+}
+.bgc4 {
+    background: nth($colors, 6);
+}
+
+/*Me falta editarle los comandos al carousel porque no quedan legibles
+.bg-color-gallery {
+    background-color: rgb(12, 12, 12);
+}
+.carousel-centrado {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}*/
