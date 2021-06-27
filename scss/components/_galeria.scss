@@ -1,9 +1,9 @@
-@import 'base/reset';
-@import 'base/fonts';
+@import '../base/reset';
+@import '../base/fonts';
 @import 'components/header';
 @import 'components/footer';
-@import 'functions/mixins';
-@import 'functions/operations';
+@import '../functions/mixins';
+@import '../functions/operations';
 
 /*GALERIA.html*/
 body {
@@ -17,18 +17,10 @@ body {
 }
 .bgc3 {
     background: nth($colors, 2);
-    align-content: center;
 }
 .bgc4 {
     background: nth($colors, 6);
 }
-
-/*Me falta editarle los comandos al carousel porque no quedan legibles
-.bg-color-gallery {
-    background-color: rgb(12, 12, 12);
-}
-.carousel-centrado {
-    display: flex;
-    justify-content: center;
-    margin: 4rem 0;
-}*/
+/*no se que me pasa que no me toma las clases y no pude seguir editando
+la galeria, abajo en "output" me tira un error pero no entiendo
+cual es y no pude solucionarlo*/
